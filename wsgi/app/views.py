@@ -12,6 +12,10 @@ def index():
 def emotion():
 	return render_template("my_form.html",mood='happy',form=MessageForm())
 
+@app.route('/hi/')
+def hi():
+    return 'Hi Hamed plz'
+
 @app.route('/emotion/', methods=['POST'])
 def emotion_post():
 	msg = request.form['message']
