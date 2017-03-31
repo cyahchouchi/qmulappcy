@@ -6,5 +6,5 @@ setup(name='Sentiments',
       author='Christopher Yahchouchi',
       author_email='chrisyahchouchi@gmail.com',
       url='https://www.python.org/community/sigs/current/distutils-sig',
-      install_requires=['MarkupSafe', 'Flask','flask-wtf','flask-babel','markdown','flup','unirest', 'bokeh'],
+      install_requires=['Flask','flask-wtf','unirest', 'bokeh'],
       )
